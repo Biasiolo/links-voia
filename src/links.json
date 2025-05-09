@@ -1,115 +1,323 @@
 {
     "categories": [
-      {
-        "name": "Links Voia Diários",
-        "links": [
-            { "name": "Operand", "url": "https://operand.com.br" },
-          { "name": "Drive Voia", "url": "https://drive.voiaagency.com.br/" },
-          { "name": "Quark RH", "url": "https://quarkrh.com.br" },
-          { "name": "Trello", "url": "https://trello.com" },
-          { "name": "Gerador de Propostas", "url": "https://voia.agency/gerador-propostas" },
-          { "name": "Gerador de Checklist", "url": "https://checklist.voiaagency.com.br/" },
-          { "name": "Prompts Voia", "url": "https://prompts.voiaagency.com.br/" },
-          { "name": "Conteudus", "url": "https://acervo.wpelite.com.br/" }
-          
-          
-        ]
-      },
-      {
-        "name": "Design e Criatividade",
-        "links": [
-          { "name": "Canva", "url": "https://canva.com" },
-          { "name": "Photopea", "url": "https://photopea.com" },
-          { "name": "Excalidraw", "url": "https://excalidraw.com" },
-          { "name": "Shopp Toolz", "url": "https://shopptoolz.com" },
-          { "name": "Spline", "url": "https://spline.design" },
-          { "name": "Remove.bg", "url": "https://remove.bg" },
-          { "name": "MotionArray", "url": "https://motionarray.com" },
-          { "name": "Squoosh", "url": "https://squoosh.app" }
+        {
+            "name": "Links Voia Diários",
+            "links": [
+                {
+                    "name": "Operand",
+                    "url": "https://operand.com.br"
+                },
+                {
+                    "name": "Drive Voia",
+                    "url": "https://drive.voiaagency.com.br/"
+                },
+                {
+                    "name": "Quark RH",
+                    "url": "https://quarkrh.com.br"
+                },
+                {
+                    "name": "Trello",
+                    "url": "https://trello.com"
+                },
+                {
+                    "name": "Gerador de Propostas",
+                    "url": "https://voia.agency/gerador-propostas"
+                },
+                {
+                    "name": "Gerador de Checklist",
+                    "url": "https://checklist.voiaagency.com.br/"
+                },
+                {
+                    "name": "Prompts Voia",
+                    "url": "https://prompts.voiaagency.com.br/"
+                },
+                {
+                    "name": "Conteudus",
+                    "url": "https://acervo.wpelite.com.br/"
+                }
+            ]
+        },
+        {
+            "name": "Design e Criatividade",
+            "links": [
+                {
+                    "name": "Canva",
+                    "url": "https://canva.com"
+                },
+                {
+                    "name": "Photopea",
+                    "url": "https://photopea.com"
+                },
+                {
+                    "name": "Excalidraw",
+                    "url": "https://excalidraw.com"
+                },
+                {
+                    "name": "Shopp Toolz",
+                    "url": "https://shopptoolz.com"
+                },
+                {
+                    "name": "Spline",
+                    "url": "https://spline.design"
+                },
+                {
+                    "name": "Remove.bg",
+                    "url": "https://remove.bg"
+                },
+                {
+                    "name": "MotionArray",
+                    "url": "https://motionarray.com"
+                },
+                {
+                    "name": "Squoosh",
+                    "url": "https://squoosh.app"
+                },
+                {
+                    "name": "Envato",
+                    "url": "https://envato.com"
+                }
+            ]
+        },
+        {
+            "name": "Bibliotecas e Conteúdos",
+            "links": [
+                {
+                    "name": "Freepik",
+                    "url": "https://freepik.com"
+                },
+                {
+                    "name": "Vecteezy",
+                    "url": "https://vecteezy.com"
+                },
+                {
+                    "name": "Unsplash",
+                    "url": "https://unsplash.com"
+                },
+                {
+                    "name": "Pexels",
+                    "url": "https://pexels.com"
+                },
+                {
+                    "name": "Pixabay",
+                    "url": "https://pixabay.com"
+                },
+                {
+                    "name": "Font Squirrel",
+                    "url": "https://fontsquirrel.com"
+                },
+                {
+                    "name": "Google Fonts",
+                    "url": "https://fonts.google.com"
+                },
+                {
+                    "name": "Iconify",
+                    "url": "https://iconify.design"
+                }
+            ]
+        },
+        {
+            "name": "Web Design e Prototipação",
+            "links": [
+                {
+                    "name": "BricksBuilder",
+                    "url": "https://bricksbuilder.io"
+                },
+                {
+                    "name": "WordPress",
+                    "url": "https://wordpress.com"
+                },
+                {
+                    "name": "Webflow",
+                    "url": "https://webflow.com"
+                },
+                {
+                    "name": "Framer",
+                    "url": "https://framer.com"
+                },
+                {
+                    "name": "Figma",
+                    "url": "https://figma.com"
+                },
+                {
+                    "name": "Tailwind Playground",
+                    "url": "https://play.tailwindcss.com"
+                },
+                {
+                    "name": "V0.dev",
+                    "url": "https://v0.dev"
+                }
+            ]
+        },
+        {
+            "name": "IA – Geração de Texto e Pesquisa",
+            "links": [
+                {
+                    "name": "ChatGPT",
+                    "url": "https://chat.openai.com"
+                },
+                {
+                    "name": "Claude",
+                    "url": "https://claude.ai"
+                },
+                {
+                    "name": "Grok",
+                    "url": "https://x.ai"
+                },
+                {
+                    "name": "DeepSeek",
+                    "url": "https://deepseek.com"
+                },
+                {
+                    "name": "Perplexity",
+                    "url": "https://perplexity.ai"
+                }
+            ]
+        },
+        {
+            "name": "IA – Geração de Imagens e Vídeos",
+            "links": [
+                {
+                    "name": "Leonardo AI",
+                    "url": "https://leonardo.ai"
+                },
+                {
+                    "name": "Midjourney",
+                    "url": "https://midjourney.com"
+                },
+                {
+                    "name": "Vidnoz",
+                    "url": "https://www.vidnoz.com"
+                },
+                {
+                    "name": "HeyGen",
+                    "url": "https://www.heygen.com"
+                },
+                {
+                    "name": "D-ID",
+                    "url": "https://www.d-id.com"
+                },
+                {
+                    "name": "Runway ML",
+                    "url": "https://runwayml.com"
+                }
+            ]
+        },
+        {
+            "name": "Mídias Sociais e Marketing Digital",
+            "links": [
+                {
+                    "name": "Mlabs",
+                    "url": "https://mlabs.com.br"
+                },
+                {
+                    "name": "Meta Business Suite",
+                    "url": "https://business.facebook.com"
+                },
+                {
+                    "name": "Facebook Ads Manager",
+                    "url": "https://facebook.com/adsmanager"
+                },
+                {
+                    "name": "Google Ads",
+                    "url": "https://ads.google.com"
+                },
+                {
+                    "name": "TikTok Ads Manager",
+                    "url": "https://ads.tiktok.com"
+                },
+                {
+                    "name": "CapCut",
+                    "url": "https://www.capcut.com"
+                },
+                {
+                    "name": "Ubersuggest (Análise de SEO)",
+                    "url": "https://neilpatel.com/ubersuggest"
+                }
+            ]
+        },
+        {
+            "name": "Ferramentas Google",
+            "links": [
+                {
+                    "name": "Google Drive",
+                    "url": "https://drive.google.com"
+                },
+                {
+                    "name": "Google Docs",
+                    "url": "https://docs.google.com"
+                },
+                {
+                    "name": "Google Sheets",
+                    "url": "https://sheets.google.com"
+                },
 
-        ]
-      },
-      {
-        "name": "Bibliotecas e Conteúdos",
-        "links": [
-          
-          
-          { "name": "Freepik", "url": "https://freepik.com" },
-          { "name": "Vecteezy", "url": "https://vecteezy.com" },
-          { "name": "Unsplash", "url": "https://unsplash.com" },
-          { "name": "Pexels", "url": "https://pexels.com" },
-          { "name": "Pixabay", "url": "https://pixabay.com" },
-          { "name": "Font Squirrel", "url": "https://fontsquirrel.com" },
-          { "name": "Google Fonts", "url": "https://fonts.google.com" },
-          { "name": "Iconify", "url": "https://iconify.design" }
-        ]
-      },
-      {
-        "name": "Web Design e Prototipação",
-        "links": [
-          { "name": "BricksBuilder", "url": "https://bricksbuilder.io" },
-          { "name": "WordPress", "url": "https://wordpress.com" },
-          { "name": "Webflow", "url": "https://webflow.com" },
-          { "name": "Framer", "url": "https://framer.com" },
-          { "name": "Figma", "url": "https://figma.com" },
-          { "name": "Tailwind Playground", "url": "https://play.tailwindcss.com" },
-          { "name": "V0.dev", "url": "https://v0.dev" }
-        ]
-      },
-      {
-        "name": "IA – Geração de Texto e Pesquisa",
-        "links": [
-          { "name": "ChatGPT", "url": "https://chat.openai.com" },
-          { "name": "Claude", "url": "https://claude.ai" },
-          { "name": "Grok", "url": "https://x.ai" },
-          { "name": "DeepSeek", "url": "https://deepseek.com" },
-          { "name": "Perplexity", "url": "https://perplexity.ai" }
-          
-        ]
-      },
-      {
-        "name": "IA – Geração de Imagens e Vídeos",
-        "links": [
-          { "name": "Leonardo AI", "url": "https://leonardo.ai" },
-          { "name": "Midjourney", "url": "https://midjourney.com" },
-          { "name": "Vidnoz", "url": "https://www.vidnoz.com" },
-          { "name": "HeyGen", "url": "https://www.heygen.com" },
-          { "name": "D-ID", "url": "https://www.d-id.com" },
-          { "name": "Runway ML", "url": "https://runwayml.com" }
-        ]
-      },
-      {
-        "name": "Mídias Sociais e Marketing Digital",
-        "links": [
-          { "name": "Mlabs", "url": "https://mlabs.com.br" },
-          { "name": "Meta Business Suite", "url": "https://business.facebook.com" },
-          { "name": "Facebook Ads Manager", "url": "https://facebook.com/adsmanager" },
-          { "name": "Google Ads", "url": "https://ads.google.com" },
-          { "name": "TikTok Ads Manager", "url": "https://ads.tiktok.com" },
-          { "name": "CapCut", "url": "https://www.capcut.com" }
-        ]
-      },
-      {
-        "name": "Ferramentas Google",
-        "links": [
-          { "name": "Google Drive", "url": "https://drive.google.com" },
-          { "name": "Google Agenda", "url": "https://calendar.google.com" },
-          { "name": "Google Analytics", "url": "https://analytics.google.com" },
-          { "name": "Google Tag Manager", "url": "https://tagmanager.google.com" },
-          { "name": "Google Meu Negócio", "url": "https://www.google.com/business" },
-          { "name": "PageSpeed Insights", "url": "https://pagespeed.web.dev" }
-        ]
-      },
-      {
-        "name": "Diversos",
-        "links": [
-          { "name": "Discord", "url": "https://discord.com" },
-          { "name": "Airbnb", "url": "https://airbnb.com" },
-          { "name": "Reportei", "url": "https://reportei.com" },
-          { "name": "WeTransfer (Envio de Arquivos)", "url": "https://wetransfer.com" },
-          { "name": "LinkedIn Voia", "url": "https://linkedin.com/company/voia" }
-        ]
-      }
+                {
+                    "name": "Google Agenda",
+                    "url": "https://calendar.google.com"
+                },
+                {
+                    "name": "Google Analytics",
+                    "url": "https://analytics.google.com"
+                },
+                {
+                    "name": "Google Tag Manager",
+                    "url": "https://tagmanager.google.com"
+                },
+                {
+                    "name": "Google Search Console",
+                    "url": "https://search.google.com/search-console"
+                },
+                {
+                    "name": "Google Meu Negócio",
+                    "url": "https://www.google.com/business"
+                },
+                {
+                    "name": "PageSpeed Insights",
+                    "url": "https://pagespeed.web.dev"
+                }
+            ]
+        },
+        {
+            "name": "Diversos",
+            "links": [
+                {
+                    "name": "Discord",
+                    "url": "https://discord.com"
+                },
+                {
+                    "name": "Airbnb",
+                    "url": "https://airbnb.com"
+                },
+                {
+                    "name": "Reportei",
+                    "url": "https://reportei.com"
+                },
+                {
+                    "name": "WeTransfer (Envio de Arquivos)",
+                    "url": "https://wetransfer.com"
+                },
+                {
+                    "name": "ILovePDF (Conversor e Editor de PDF)",
+                    "url": "https://www.ilovepdf.com"
+                },
+                {
+                    "name": "SmallPDF (Ferramentas PDF)",
+                    "url": "https://smallpdf.com"
+                },
+                {
+                    "name": "Y2Mate (Extrator de Vídeo YouTube)",
+                    "url": "https://www.y2mate.com"
+                },
+                {
+                    "name": "SnapSave (Baixar Vídeos Facebook/Instagram)",
+                    "url": "https://snapsave.app"
+                },
+                {
+                    "name": "Remove.bg (Remover fundo de imagens)",
+                    "url": "https://remove.bg"
+                }
+                
+            ]
+        }
     ]
-  }
-  
+}

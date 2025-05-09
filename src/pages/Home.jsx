@@ -172,7 +172,7 @@ const Home = () => {
                 >
                   <div className="flex items-center space-x-3 cursor-pointer">
                     <span className="text-2xl">{category.icon}</span>
-                    <h2 className="text-xl text-center font-bold text-white">{category.name}</h2>
+                    <h2 className="text-xl font-bold text-white">{category.name}</h2>
                   </div>
                   <div>
                     {expandedCategories[index] ? 
