@@ -188,7 +188,8 @@ const Home = () => {
                       {category.links.map((link, linkIndex) => (
                         <div 
                           key={linkIndex}
-                          className={`flex items-center justify-between rounded-lg ${link.featured ? 'bg-gradient-to-r from-orange-600/20 to-pink-600/20 border border-orange-500/30' : 'bg-gray-700/40 hover:bg-gray-700/80 border border-gray-600'} transition-all duration-200 transform hover:-translate-y-1 hover:shadow-md`}
+                          className={`flex items-center justify-between rounded-lg ${link.featured ? 'bg-gradient-to-r from-orange-600/20 to-pink-600/20 border border-orange-500/30' : 'bg-gray-700/40 hover:bg-teal-700/80 border border-gray-600'} transition-all duration-100 transform hover:-translate-y-0.5 hover:shadow-md`}
+
                         >
                           <a
                             href={link.url}

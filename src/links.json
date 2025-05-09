@@ -1,15 +1,18 @@
 {
     "categories": [
       {
-        "name": "Processos",
+        "name": "Links Voia Diários",
         "links": [
+            { "name": "Operand", "url": "https://operand.com.br" },
+          { "name": "Drive Voia", "url": "https://drive.voiaagency.com.br/" },
+          { "name": "Quark RH", "url": "https://quarkrh.com.br" },
+          { "name": "Trello", "url": "https://trello.com" },
           { "name": "Gerador de Propostas", "url": "https://voia.agency/gerador-propostas" },
           { "name": "Gerador de Checklist", "url": "https://checklist.voiaagency.com.br/" },
           { "name": "Prompts Voia", "url": "https://prompts.voiaagency.com.br/" },
-          { "name": "Trello", "url": "https://trello.com" },
-          { "name": "Operand", "url": "https://operand.com.br" },
-          { "name": "Agendor", "url": "https://app.agendor.com.br" },
-          { "name": "Quark RH", "url": "https://quarkrh.com.br" }
+          { "name": "Conteudus", "url": "https://acervo.wpelite.com.br/" }
+          
+          
         ]
       },
       {
@@ -22,15 +25,15 @@
           { "name": "Spline", "url": "https://spline.design" },
           { "name": "Remove.bg", "url": "https://remove.bg" },
           { "name": "MotionArray", "url": "https://motionarray.com" },
-          { "name": "Squoosh", "url": "https://squoosh.app" },
-          { "name": "Adobe Express", "url": "https://adobe.com/express" }
+          { "name": "Squoosh", "url": "https://squoosh.app" }
+
         ]
       },
       {
         "name": "Bibliotecas e Conteúdos",
         "links": [
-          { "name": "Drive Voia", "url": "https://drive.voiaagency.com.br/" },
-          { "name": "Conteudus", "url": "https://acervo.wpelite.com.br/" },
+          
+          
           { "name": "Freepik", "url": "https://freepik.com" },
           { "name": "Vecteezy", "url": "https://vecteezy.com" },
           { "name": "Unsplash", "url": "https://unsplash.com" },
