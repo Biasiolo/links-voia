@@ -93,7 +93,7 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
-      <header className="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-blur-sm border-b border-gray-800 shadow-lg">
+      <header className="sticky top-0 z-50 bg-gray-950 bg-opacity-95 backdrop-blur-sm border-b border-gray-800 shadow-lg">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-2">
 
@@ -101,13 +101,13 @@ const Home = () => {
           </div>
 
           <nav className="hidden md:flex items-center space-x-6">
-            <button onClick={() => setActiveTab('all')} className={`px-3 py-2 rounded-lg transition ${activeTab === 'all' ? 'bg-orange-600 text-white' : 'text-gray-300 hover:text-white'}`}>
+            <button onClick={() => setActiveTab('all')} className={`cursor-pointer px-3 py-2 rounded-lg transition ${activeTab === 'all' ? 'bg-orange-600 text-white' : 'text-gray-300 hover:text-white'}`}>
               Todos os Links
             </button>
-            <button onClick={() => setActiveTab('favorites')} className={`px-3 py-2 rounded-lg transition ${activeTab === 'favorites' ? 'bg-orange-600 text-white' : 'text-gray-300 hover:text-white'}`}>
+            <button onClick={() => setActiveTab('favorites')} className={`cursor-pointer px-3 py-2 rounded-lg transition ${activeTab === 'favorites' ? 'bg-orange-600 text-white' : 'text-gray-300 hover:text-white'}`}>
               Favoritos
             </button>
-            <button onClick={() => setActiveTab('recent')} className={`px-3 py-2 rounded-lg transition ${activeTab === 'recent' ? 'bg-orange-600 text-white' : 'text-gray-300 hover:text-white'}`}>
+            <button onClick={() => setActiveTab('recent')} className={`cursor-pointer px-3 py-2 rounded-lg transition ${activeTab === 'recent' ? 'bg-orange-600 text-white' : 'text-gray-300 hover:text-white'}`}>
               Recentes
             </button>
           </nav>
@@ -164,7 +164,7 @@ const Home = () => {
             {filteredCategories.map((category, index) => (
               <div
                 key={index}
-                className="bg-gray-800 bg-opacity-50 backdrop-blur-sm rounded-xl shadow-lg border border-gray-700 overflow-hidden transition-all duration-300 hover:shadow-teal-500/30 hover:border-teal-500/40 "
+                className="bg-gray-950 bg-opacity-50 backdrop-blur-sm rounded-xl shadow-lg border border-gray-700 overflow-hidden transition-all duration-300 hover:shadow-teal-500/30 hover:border-teal-500/40 "
               >
                 <div 
                   className="flex justify-between items-center p-4 cursor-pointer text-center"
@@ -172,7 +172,7 @@ const Home = () => {
                 >
                   <div className="flex items-center space-x-3 cursor-pointer text-center">
                     <span className="text-2xl">{category.icon}</span>
-                    <h2 className="text-xl font-bold  text-teal-500">{category.name}</h2>
+                    <h2 className="text-xl font-bold text-teal-500">{category.name}</h2>
                   </div>
                   <div>
                     {expandedCategories[index] ? 
@@ -226,8 +226,8 @@ const Home = () => {
 
         {/* Favoritos */}
         {activeTab === 'favorites' && (
-          <div className="bg-gray-800 bg-opacity-50 rounded-xl p-6 backdrop-blur-sm border border-gray-700">
-            <h2 className="text-2xl font-bold mb-6 text-white flex items-center">
+          <div className="bg-gray-950 bg-opacity-50 rounded-xl p-6 backdrop-blur-sm border border-gray-700">
+            <h2 className="text-2xl font-bold mb-6 text-teal-500 flex items-center">
               <Star className="mr-2 text-yellow-400" size={24} fill="currentColor" />
               Links Favoritos
             </h2>
@@ -272,7 +272,7 @@ const Home = () => {
 
         {/* Recentes */}
         {activeTab === 'recent' && (
-          <div className="bg-gray-800 bg-opacity-50 rounded-xl p-6 backdrop-blur-sm border border-gray-700">
+          <div className="bg-gray-950 bg-opacity-50 rounded-xl p-6 backdrop-blur-sm border border-gray-700">
             <h2 className="text-2xl font-bold mb-6 text-white flex items-center">
               <Clock className="mr-2 text-blue-400" size={24} />
               Links Recentes
