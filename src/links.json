@@ -5,7 +5,7 @@
             "links": [
                 {
                     "name": "Operand",
-                    "url": "https://operand.com.br"
+                    "url": "https://app4.operand.com.br/"
                 },
                 {
                     "name": "Drive Voia",
@@ -47,10 +47,6 @@
                 {
                     "name": "Photopea",
                     "url": "https://photopea.com"
-                },
-                {
-                    "name": "Excalidraw",
-                    "url": "https://excalidraw.com"
                 },
                 {
                     "name": "Shopp Toolz",
@@ -170,6 +166,14 @@
                 {
                     "name": "Perplexity",
                     "url": "https://perplexity.ai"
+                },
+                {
+                    "name": "Gemini",
+                    "url": "https://gemini.google.com/"
+                },
+                {
+                    "name": "Lovable",
+                    "url": "https://lovable.dev/"
                 }
             ]
         },
@@ -199,6 +203,10 @@
                 {
                     "name": "Runway ML",
                     "url": "https://runwayml.com"
+                },
+                {
+                    "name": "Spline",
+                    "url": "https://spline.design/"
                 }
             ]
         },
@@ -218,6 +226,10 @@
                     "url": "https://facebook.com/adsmanager"
                 },
                 {
+                    "name": "Facebook Creative Hub",
+                    "url": "https://www.facebook.com/ads/creativehub"
+                },
+                {
                     "name": "Google Ads",
                     "url": "https://ads.google.com"
                 },
@@ -228,6 +240,10 @@
                 {
                     "name": "CapCut",
                     "url": "https://www.capcut.com"
+                },
+                {
+                    "name": "Metricool",
+                    "url": "https://metricool.com"
                 },
                 {
                     "name": "Ubersuggest (Análise de SEO)",
@@ -250,7 +266,6 @@
                     "name": "Google Sheets",
                     "url": "https://sheets.google.com"
                 },
-
                 {
                     "name": "Google Agenda",
                     "url": "https://calendar.google.com"
@@ -316,7 +331,6 @@
                     "name": "Remove.bg (Remover fundo de imagens)",
                     "url": "https://remove.bg"
                 }
-                
             ]
         }
     ]

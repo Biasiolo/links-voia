@@ -167,12 +167,12 @@ const Home = () => {
                 className="bg-gray-800 bg-opacity-50 backdrop-blur-sm rounded-xl shadow-lg border border-gray-700 overflow-hidden transition-all duration-300 hover:shadow-teal-500/30 hover:border-teal-500/40 "
               >
                 <div 
-                  className="flex justify-between items-center p-4 cursor-pointer"
+                  className="flex justify-between items-center p-4 cursor-pointer text-center"
                   onClick={() => toggleCategory(index)}
                 >
-                  <div className="flex items-center space-x-3 cursor-pointer">
+                  <div className="flex items-center space-x-3 cursor-pointer text-center">
                     <span className="text-2xl">{category.icon}</span>
-                    <h2 className="text-xl font-bold text-white">{category.name}</h2>
+                    <h2 className="text-xl font-bold  text-teal-500">{category.name}</h2>
                   </div>
                   <div>
                     {expandedCategories[index] ? 
