@@ -91,6 +91,11 @@ const Home = () => {
     return { ...category, links: filteredLinks };
   }).filter(category => category.links.length > 0);
 
+  const clearFavorites = () => {
+    setFavoriteLinks([]);
+    localStorage.removeItem('favoriteLinks');
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white">
       <header className="sticky top-0 z-50 bg-gray-950 bg-opacity-95 backdrop-blur-sm border-b border-gray-800 shadow-lg">
@@ -166,7 +171,7 @@ const Home = () => {
                 key={index}
                 className="bg-gray-950 bg-opacity-50 backdrop-blur-sm rounded-xl shadow-lg border border-gray-700 overflow-hidden transition-all duration-300 hover:shadow-teal-500/30 hover:border-teal-500/40 "
               >
-                <div 
+                <div
                   className="flex justify-between items-center p-4 cursor-pointer text-center"
                   onClick={() => toggleCategory(index)}
                 >
@@ -175,18 +180,18 @@ const Home = () => {
                     <h2 className="text-xl font-bold text-teal-500">{category.name}</h2>
                   </div>
                   <div>
-                    {expandedCategories[index] ? 
-                      <ChevronUp className="text-gray-400" size={20} /> : 
+                    {expandedCategories[index] ?
+                      <ChevronUp className="text-gray-400" size={20} /> :
                       <ChevronDown className="text-gray-400" size={20} />
                     }
                   </div>
                 </div>
-                
+
                 {expandedCategories[index] && (
                   <div className="px-4 pb-4">
                     <div className="space-y-2">
                       {category.links.map((link, linkIndex) => (
-                        <div 
+                        <div
                           key={linkIndex}
                           className={`flex items-center justify-between rounded-lg ${link.featured ? 'bg-gradient-to-r from-orange-600/20 to-pink-600/20 border border-orange-500/30' : 'bg-gray-700/40 hover:bg-teal-700/80 border border-gray-600'} transition-all duration-100 transform hover:-translate-y-0.5 hover:shadow-md`}
 
@@ -201,16 +206,16 @@ const Home = () => {
                             <span className="flex-grow font-medium">{link.name}</span>
                             <ExternalLink size={16} className="text-gray-400" />
                           </a>
-                          <button 
+                          <button
                             onClick={(e) => {
                               e.preventDefault();
                               toggleFavorite(link);
                             }}
                             className="p-3 text-gray-400 hover:text-yellow-400 transition-colors"
                           >
-                            <Star 
-                              size={16} 
-                              fill={isFavorite(link) ? "currentColor" : "none"} 
+                            <Star
+                              size={16}
+                              fill={isFavorite(link) ? "currentColor" : "none"}
                               className={isFavorite(link) ? "text-yellow-400" : ""}
                             />
                           </button>
@@ -231,14 +236,24 @@ const Home = () => {
               <Star className="mr-2 text-yellow-400" size={24} fill="currentColor" />
               Links Favoritos
             </h2>
-            
+            <div className="flex justify-end mb-4">
+              <button
+                onClick={clearFavorites}
+                className="text-sm px-3 py-1 bg-red-800 hover:bg-red-600 text-white rounded-md transition-all cursor-pointer"
+              >
+                Limpar Favoritos
+              </button>
+            </div>
             {favoriteLinks.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
                 {favoriteLinks.map((link, index) => (
-                  <div 
+
+                  <div
                     key={index}
                     className="bg-gray-700/40 rounded-lg hover:bg-gray-700/80 border border-gray-600 transition-all duration-200 transform hover:-translate-y-1 hover:shadow-md flex items-center justify-between"
                   >
+
                     <a
                       href={link.url}
                       target="_blank"
@@ -249,7 +264,7 @@ const Home = () => {
                       <span className="flex-grow font-medium">{link.name}</span>
                       <ExternalLink size={16} className="text-gray-400" />
                     </a>
-                    <button 
+                    <button
                       onClick={(e) => {
                         e.preventDefault();
                         toggleFavorite(link);
@@ -267,6 +282,7 @@ const Home = () => {
                 <p>Você ainda não tem links favoritos. Marque alguns como favoritos para vê-los aqui!</p>
               </div>
             )}
+
           </div>
         )}
 
@@ -277,11 +293,11 @@ const Home = () => {
               <Clock className="mr-2 text-blue-400" size={24} />
               Links Recentes
             </h2>
-            
+
             {recentLinks.length > 0 ? (
               <div className="space-y-4">
                 {recentLinks.map((link, index) => (
-                  <div 
+                  <div
                     key={index}
                     className="bg-gray-700/40 rounded-lg hover:bg-gray-700/80 border border-gray-600 transition-all duration-200 transform hover:-translate-y-1 hover:shadow-md flex items-center justify-between"
                   >
@@ -298,16 +314,16 @@ const Home = () => {
                       </div>
                       <ExternalLink size={16} className="text-gray-400" />
                     </a>
-                    <button 
+                    <button
                       onClick={(e) => {
                         e.preventDefault();
                         toggleFavorite(link);
                       }}
                       className="p-3 text-gray-400 hover:text-yellow-400 transition-colors"
                     >
-                      <Star 
-                        size={16} 
-                        fill={isFavorite(link) ? "currentColor" : "none"} 
+                      <Star
+                        size={16}
+                        fill={isFavorite(link) ? "currentColor" : "none"}
                         className={isFavorite(link) ? "text-yellow-400" : ""}
                       />
                     </button>
@@ -348,4 +364,3 @@ const Home = () => {
 };
 
 export default Home;
-      
