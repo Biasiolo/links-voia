@@ -182,7 +182,7 @@
             "links": [
                 {
                     "name": "Leonardo AI",
-                    "url": "https://leonardo.ai"
+                    "url": "https://app.leonardo.ai"
                 },
                 {
                     "name": "Midjourney",
@@ -190,15 +190,15 @@
                 },
                 {
                     "name": "Vidnoz",
-                    "url": "https://www.vidnoz.com"
+                    "url": "https://aiapp-pt.vidnoz.com/"
                 },
                 {
                     "name": "HeyGen",
                     "url": "https://www.heygen.com"
                 },
                 {
-                    "name": "D-ID",
-                    "url": "https://www.d-id.com"
+                    "name": "Evernote",
+                    "url": "https://evernote.com/"
                 },
                 {
                     "name": "Runway ML",
@@ -328,8 +328,8 @@
                     "url": "https://snapsave.app"
                 },
                 {
-                    "name": "Remove.bg (Remover fundo de imagens)",
-                    "url": "https://remove.bg"
+                    "name": "Datas Importantes",
+                    "url": "https://voia.agency/gerador-propostas"
                 }
             ]
         }
